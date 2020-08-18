@@ -10,7 +10,7 @@ I aim to answer three question:
 **Bonus question:**
 4. Can the rent prices in Düsseldorf be accurately predicted using a linear model?
 
-***A summary of my findings*** can be found in my blogpost in Medium - please follow this link
+***A summary of my findings*** can be found in my blogpost in Medium - [please follow this link for free reading](https://medium.com/@juangarcia10/predicting-rent-prices-in-germany-how-expensive-is-really-d%C3%BCsseldorf-63484e4bf658?sk=e772554443a2cbf36fc279ab7d39038d)
 
 # About the Notebooks
 
@@ -25,4 +25,4 @@ I am working with the dataset "immo_data.csv" from kaggle. This dataset contains
 
 # Methodology
 
-I use Python 3* for the analysis. No further requirements. 
+I use Python 3* for the analysis. No further requirements.

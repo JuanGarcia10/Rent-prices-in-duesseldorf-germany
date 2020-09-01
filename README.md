@@ -8,7 +8,7 @@ I am interested in the behavior of rent prices for Düsseldorf and aim to answer
 3. How do the characteristics of a flat explain the variability in prize?
 4. Can the rent prices in Düsseldorf be accurately predicted using a linear model?
 
-***A summary of my findings*** can be found in my blogpost in Medium - [please follow this link for free reading](https://medium.com/@juangarcia10/predicting-rent-prices-in-germany-how-expensive-is-really-d%C3%BCsseldorf-63484e4bf658?sk=e772554443a2cbf36fc279ab7d39038d)
+***A summary of my findings*** can be found in my blog-post in Medium - [please follow this link for free reading](https://medium.com/@juangarcia10/predicting-rent-prices-in-germany-how-expensive-is-really-d%C3%BCsseldorf-63484e4bf658?sk=e772554443a2cbf36fc279ab7d39038d)
 
 # About the Notebooks
 

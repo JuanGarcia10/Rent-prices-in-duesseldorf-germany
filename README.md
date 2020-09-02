@@ -15,11 +15,14 @@ I am interested in the behavior of rent prices for Düsseldorf and aim to answer
 I follow the CRISP-DM process and divided my work into three notebooks for a better structured:
 * "Data_cleaning_rent_flats_germany" reflects the first steps of CRISP-DM, i.e. Business understanding, data understanding, and data preparation
 * "Data_exploration_flats_germany" reflects the modeling part of CRISP-DM, i.e. understanding the variables better and setting the model
-* "Graphics_for_article" is the final touch to the modeling and evaluation part of CRISP-DM, i.e. polishing the results, fitting the final model and evaluating it. No deployment part is included as the project is not meant to be deployed to any system
+* "Modeling and Graphics" is the final touch to the modeling and evaluation part of CRISP-DM, i.e. polishing the results, fitting the final model and evaluating it. No deployment part is included as the project is not meant to be deployed to any system
 
 # About the Dataset and Acknowledgments
 
 I am working with the dataset "immo_data.csv" from kaggle. This dataset contains information about the apartment (flats) rental offers in Germany. It was created by "CorrieBar" from the popular German website Immoscout24. It contains all published offers from 3 different days during 2018 and 2019. ***Please refer to Kaggle to get the data, as I did not include it in the repository***. [Just follow the link](https://www.kaggle.com/corrieaar/apartment-rental-offers-in-germany)
+
+The GeoJson files for Düsseldorf can be found [here](https://opendata.duesseldorf.de/sites/default/files/Stadtteile_WGS84_4326.geojson). Please download this if you are planing to create your own heatmap of the city
+
 
 # Methodology
 
@@ -30,6 +33,8 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import folium
+from sklearn.svm import SVR
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import r2_score, mean_squared_error
